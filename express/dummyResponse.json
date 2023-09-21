@@ -1,0 +1,80 @@
+{
+  "based_on_image": null,
+  "based_on_render": null,
+  "community_id": "7rqxAa",
+  "extra_data": {
+    "api_request_data": {},
+    "api_url_params": {
+      "callback_url": "https://55a0-182-176-4-169.ngrok-free.app/webhook-callback?callback_id=1695233773228",
+      "prompt": "create an image of dog"
+    },
+    "api_version": 3,
+    "clean_prompt": "create an image of dog",
+    "concepts": {
+      "kenna": {
+        "base_model": null,
+        "community_id": 4993,
+        "id": 5898,
+        "info_url": "https://huggingface.co/SdValar/deliberate2",
+        "is_complete_model": true,
+        "is_unbracketed_token": true,
+        "load_from_huggingface": true,
+        "local_model_path": null,
+        "model_family": "SD15",
+        "name": "kenna",
+        "token": "((((studio product photo)))), very detailed, high quality, sharp, in focus, good lighting, clear, modest ((in focus, sharp focus, fashionable, fashion)) [[[nsfw, pornographic, extreme closeup, inhuman, rude, bulge, large breasts, penis, vagina, nudity]]]",
+        "type": "style",
+        "url": "https://huggingface.co/SdValar/deliberate2",
+        "weight": null
+      }
+    },
+    "family": [
+      "SD15"
+    ],
+    "init_image": null,
+    "post_callback": "https://55a0-182-176-4-169.ngrok-free.app/webhook-callback?callback_id=1695233773228",
+    "raw_prompt": "create an image of dog <kenna>",
+    "seed": 75119,
+    "session_id": null,
+    "shard_group": [],
+    "source": "api",
+    "start": 1695233773
+  },
+  "has_been_rendered": true,
+  "images": [
+    {
+      "id": 21766813,
+      "url": "https://piratediffusion1.s3.amazonaws.com/renders2/rYVAMY/00001-r-pro-czjh46.jpg",
+      "is_nsfw": false,
+      "render_options": "{\"concept\":\"kenna\",\"family\":\"SD15\",\"guidance\":12.13,\"height\":512,\"machine\":\"r-pro-czjh46\",\"sampler\":\"ddim\",\"seed\":75119,\"width\":512}"
+    },
+    {
+      "id": 21766817,
+      "url": "https://piratediffusion1.s3.amazonaws.com/renders2/rYVAMY/00002-r-pro-czjh46.jpg",
+      "is_nsfw": false,
+      "render_options": "{\"concept\":\"kenna\",\"family\":\"SD15\",\"guidance\":5.18,\"height\":512,\"machine\":\"r-pro-czjh46\",\"sampler\":\"ddim\",\"seed\":75120,\"width\":512}"
+    },
+    {
+      "id": 21766822,
+      "url": "https://piratediffusion1.s3.amazonaws.com/renders2/rYVAMY/00003-r-pro-czjh46.jpg",
+      "is_nsfw": false,
+      "render_options": "{\"concept\":\"kenna\",\"family\":\"SD15\",\"guidance\":11.03,\"height\":512,\"machine\":\"r-pro-czjh46\",\"sampler\":\"ddim\",\"seed\":75121,\"width\":512}"
+    },
+    {
+      "id": 21766827,
+      "url": "https://piratediffusion1.s3.amazonaws.com/renders2/rYVAMY/00004-r-pro-czjh46.jpg",
+      "is_nsfw": false,
+      "render_options": "{\"concept\":\"kenna\",\"family\":\"SD15\",\"guidance\":7.13,\"height\":512,\"machine\":\"r-pro-czjh46\",\"sampler\":\"ddim\",\"seed\":75122,\"width\":512}"
+    },
+    {
+      "id": 21766834,
+      "url": "https://piratediffusion1.s3.amazonaws.com/renders2/rYVAMY/00005-r-pro-czjh46.jpg",
+      "is_nsfw": false,
+      "render_options": "{\"concept\":\"kenna\",\"family\":\"SD15\",\"guidance\":9.67,\"height\":512,\"machine\":\"r-pro-czjh46\",\"sampler\":\"ddim\",\"seed\":75123,\"width\":512}"
+    }
+  ],
+  "prompt": "create an image of dog",
+  "render_hash": "rYVAMY",
+  "session_id": null,
+  "task": "txt2img"
+}
